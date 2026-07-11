@@ -1,0 +1,5 @@
+Esta primera práctica (la más simple de todas) consiste en crear una clase SubstitutionCipher que cifre usando el cifrado César una string.
+
+Para ello, hay que crear una función encode y decode, ambas con dos parámetros: Un int key y un string, siendo key el "salto" de cada letra (por ejemplo, si ciframos 'a' y key es 1 nos quedará 'b').
+
+Como JAVA usa ASCII, se nos tiene permitido ignorar la ñ o letras acentuadas a la hora de implementar la función y trabajar solo con las letras del alfabeto inglés. A la hora de cifrar, cualquier letra que no forme parte del alfabeto inglés quedará como está.
